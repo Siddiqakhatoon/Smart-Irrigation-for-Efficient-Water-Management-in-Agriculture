@@ -1,18 +1,3 @@
-"""
-preprocess.py
---------------
-Handles loading, cleaning, and encoding the irrigation CSV dataset.
-
-Steps:
-1. Load CSV (auto-generate if missing)
-2. Add Soil_Moisture column if absent
-3. Encode categorical columns -> numerical
-4. Return feature matrix X and target vector y
-
-Future Scope:
-- Add real-time sensor data ingestion (Arduino/Raspberry Pi serial port)
-- Integrate OpenWeatherMap API for live temperature/humidity/rain
-"""
 
 import pandas as pd
 import numpy as np
