@@ -1,22 +1,3 @@
-"""
-convert_images.py
-------------------
-Place this file inside your smart_irrigation folder.
-
-Folder structure:
-    smart_irrigation/
-    ├── images/
-    │   ├── rice.jpg
-    │   ├── wheat.jpg
-    │   └── cotton.jpg
-    ├── convert_images.py   <- THIS FILE
-    ├── app.py
-    └── templates/
-        └── index.html
-
-Run with:
-    python convert_images.py
-"""
 
 import base64
 import os
